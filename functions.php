@@ -13,7 +13,8 @@ Author URI: http://www.facebook.com/tht52
 add_action('wp_head', 'wp_head_font');
 
 function wp_head_font() {
-  echo '<style>
+  echo '<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansbengali.css" />
+  <style>
     body, td, textarea, input, select {
       font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
@@ -28,7 +29,8 @@ function wp_head_font() {
 add_action('admin_head', 'admin_font');
 
 function admin_font() {
-  echo '<style>
+  echo '<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansbengali.css" />
+  <style>
     body, td, textarea, input, select {
       font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
@@ -43,7 +45,8 @@ function admin_font() {
 add_action('login_head', 'login_font');
 
 function login_font() {
-  echo '<style>
+  echo '<link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansbengali.css" />
+  <style>
 p {font-family: "Noto Sans Bengali", SolaimanLipi;} 
   </style>';
 }
