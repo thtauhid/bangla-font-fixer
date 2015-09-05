@@ -15,10 +15,10 @@ add_action('wp_head', 'wp_head_font');
 function wp_head_font() {
   echo '<style>
     body, td, textarea, input, select {
-      font-family: "SolaimanLipi";
+      font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
 #wpadminbar #wp-admin-bar-my-sites a.ab-item, #wpadminbar #wp-admin-bar-site-name a.ab-item #wpadminbar .quicklinks .ab-empty-item, #wpadminbar .quicklinks a, #wpadminbar .shortlink-input{
-      font-family: "SolaimanLipi";
+      font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
   </style>';
 }
@@ -30,10 +30,10 @@ add_action('admin_head', 'admin_font');
 function admin_font() {
   echo '<style>
     body, td, textarea, input, select {
-      font-family: "SolaimanLipi";
+      font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
 #wpadminbar #wp-admin-bar-my-sites a.ab-item, #wpadminbar #wp-admin-bar-site-name a.ab-item #wpadminbar .quicklinks .ab-empty-item, #wpadminbar .quicklinks a, #wpadminbar .shortlink-input{
-      font-family: "SolaimanLipi";
+      font-family: "Noto Sans Bengali", SolaimanLipi;
     } 
   </style>';
 }
@@ -44,6 +44,6 @@ add_action('login_head', 'login_font');
 
 function login_font() {
   echo '<style>
-p {font-family: "SolaimanLipi";} 
+p {font-family: "Noto Sans Bengali", SolaimanLipi;} 
   </style>';
 }
